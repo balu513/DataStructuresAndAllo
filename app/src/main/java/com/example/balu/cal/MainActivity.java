@@ -33,6 +33,27 @@ public class MainActivity extends AppCompatActivity {
     private TextView tv_sortresult;
     private ArrayList<String>   items =    new ArrayList<String>();
 
+
+    /*
+    git init
+    git config --global user.name "github username"
+    git config --global user.email "github email"
+    git add .
+    git commit -m "comment"
+    git rm "file name"    :  just to remove the already commit files
+    git remote add origin "http link of github repo"
+    git remote -v    : check the number of remotes for that github
+    git push origin master
+
+    git status   : status of files
+    git log      : FOR check commit logs
+    git diff  sha1 sha2   : check the diff with previous commit.
+    history      : to check previous used commands
+
+    git pull origin master    : for pulling files
+
+     */
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
