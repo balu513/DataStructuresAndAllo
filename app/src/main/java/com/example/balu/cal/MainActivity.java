@@ -31,7 +31,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     private TextView tv_sortresult;
-    private ArrayList<String> items = new ArrayList<String>();
+    private ArrayList<String>   items =    new ArrayList<String>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
